@@ -1,5 +1,8 @@
 ---
-id: introduction title: 什么是 Dragonfly？ description: Dragonfly 是一款基于 P2P 的智能镜像和文件分发工具。它旨在提高文件传输的效率和速率，最大限度地利用网络带宽，尤其是在分发大量数据时，例如应用分发、缓存分发、日志分发和镜像分发。 slug: /
+id: introduction
+title: 什么是 Dragonfly？
+description: Dragonfly 是一款基于 P2P 的智能镜像和文件分发工具。它旨在提高文件传输的效率和速率，最大限度地利用网络带宽，尤其是在分发大量数据时，例如应用分发、缓存分发、日志分发和镜像分发。
+slug: /
 ---
 
 ## Dragonfly2 简介
