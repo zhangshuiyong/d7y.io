@@ -43,11 +43,7 @@ This project is an open-source version of the Dragonfly used at Alibaba. It has 
   any check code (MD5).
 - **Disk protection and highly efficient IO**: Prechecking disk space, delaying synchronization, writing file blocks
   in the best order, isolating net-read/disk-write, and so on.
-- **High performance**: SuperNode is completely closed-loop, which means that it doesn't rely on any database
-  or distributed cache, processing requests with extremely high performance.
-- **Auto-isolation of Exception**: Dragonfly will automatically isolate exception nodes (peer or SuperNode)
-  to improve download stability.
-- **No pressure on file source**: Generally, only a few SuperNodes will download files from the source.
+- **Auto-isolation of Exception**: Dragonfly will automatically isolate exception nodes to improve download stability.
 - **Support standard HTTP header**: Support submitting authentication information through HTTP header.
 - **Effective concurrency control of Registry Auth**: Reduce the pressure on the Registry Auth Service.
 - **Simple and easy to use**: Very few configurations are needed.
